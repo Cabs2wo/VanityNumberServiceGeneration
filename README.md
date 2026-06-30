@@ -1,5 +1,7 @@
 # VanityNumberServiceGeneration
 
+## Please Download the draw.io file and open it if you have draw.io application. If no draw.io application kindly go to draw.io website and attach the file for better viewing of the Architecture diagrams.
+
 ## Setup Instructions:
 
 ## DynamoDB Tables
