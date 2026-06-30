@@ -1,0 +1,597 @@
+{
+  "Version": "2019-10-30",
+  "StartAction": "9f1a5c7e-8621-448d-9b43-d8efe7dcd486",
+  "Metadata": {
+    "entryPointPosition": {
+      "x": -68,
+      "y": 36.8
+    },
+    "ActionMetadata": {
+      "f2e0ee8e-5abe-46e7-9462-9c0eacf52d3a": {
+        "position": {
+          "x": 1295.2,
+          "y": 223.2
+        },
+        "parameters": {
+          "EventHooks": {
+            "CustomerQueue": {
+              "displayName": "VanityNumber_CustomerQueueFlow"
+            }
+          }
+        },
+        "contactFlow": {
+          "text": "VanityNumber_CustomerQueueFlow",
+          "id": "arn:aws:connect:us-west-2:567768661479:instance/e5a93987-2ac6-4fea-8af1-7a1e6d2d1a1b/contact-flow/0a5f57aa-b11d-4e05-b3a6-21681bba136c"
+        },
+        "customerOrAgent": true
+      },
+      "d63c70f1-9697-4e4d-9b14-991b5fbc77a5": {
+        "position": {
+          "x": 1576,
+          "y": 229.6
+        }
+      },
+      "dc429e7a-15af-41fb-b366-a21b018e5df8": {
+        "position": {
+          "x": 2090.4,
+          "y": 96.8
+        }
+      },
+      "61f67734-82e8-4037-bf0e-51041ae2d03d": {
+        "position": {
+          "x": 1343.2,
+          "y": 454.4
+        }
+      },
+      "1afa3b24-3c83-4f1c-a9a0-553eb6b31e77": {
+        "position": {
+          "x": 710.4,
+          "y": 600
+        }
+      },
+      "51d3bc45-85d3-4ee1-8a79-f953feda9481": {
+        "position": {
+          "x": 1016,
+          "y": 234.4
+        },
+        "parameters": {
+          "QueueId": {
+            "displayName": "BasicQueue"
+          }
+        },
+        "queue": {
+          "text": "BasicQueue"
+        }
+      },
+      "9cb8d856-b5cd-4cb6-b757-81ae3ff15907": {
+        "position": {
+          "x": 1872,
+          "y": -110.4
+        }
+      },
+      "a9d4e7b2-2138-4947-986a-f31e68dd9f6a": {
+        "position": {
+          "x": 1630.4,
+          "y": -116.8
+        }
+      },
+      "9f1a5c7e-8621-448d-9b43-d8efe7dcd486": {
+        "position": {
+          "x": 36,
+          "y": 245.6
+        }
+      },
+      "e3b3c50b-cdf6-4966-b152-6aab11edbeea": {
+        "position": {
+          "x": 302.4,
+          "y": -30.4
+        }
+      },
+      "3c66a59c-20eb-4b44-afc1-364a372ef80e": {
+        "position": {
+          "x": 1318.4,
+          "y": -160
+        },
+        "conditionMetadata": [
+          {
+            "id": "73d2f58e-875f-4bb1-b86a-f2629b627452",
+            "value": "1"
+          },
+          {
+            "id": "c661c245-2854-4ae7-95b0-0f42efb893a7",
+            "value": "0"
+          }
+        ]
+      },
+      "8810d31c-9a2b-4b12-a30e-61ae91f6bf27": {
+        "position": {
+          "x": 557.6,
+          "y": -44.8
+        },
+        "parameters": {
+          "LambdaFunctionARN": {
+            "displayName": "VanityNumberGen3"
+          }
+        },
+        "dynamicMetadata": {}
+      },
+      "5a7aef0f-4736-414d-81ff-0f5efd3d4fe3": {
+        "position": {
+          "x": 1072.8,
+          "y": -143.2
+        }
+      },
+      "15e30284-794b-42bc-8f4f-81f7253e9d9e": {
+        "position": {
+          "x": 1034.4,
+          "y": 480.8
+        }
+      },
+      "3d6f3a6c-7c8e-47ea-b6fc-c6ca1530d231": {
+        "position": {
+          "x": 1622.4,
+          "y": -332
+        }
+      },
+      "e03dca24-8960-4100-b899-3dd439954053": {
+        "position": {
+          "x": 683.2,
+          "y": 292.8
+        },
+        "conditionMetadata": [
+          {
+            "id": "8846a617-b093-4a09-97f2-dd07d922c42c",
+            "value": "1"
+          }
+        ]
+      },
+      "f161b173-7881-45e7-b98d-01c4c18fe7f8": {
+        "position": {
+          "x": 784,
+          "y": -272
+        },
+        "conditionMetadata": [
+          {
+            "id": "f7f6ef93-0ad4-47b8-a3b3-7b61a633ac3e",
+            "operator": {
+              "name": "Equals",
+              "value": "Equals",
+              "shortDisplay": "="
+            },
+            "value": "True"
+          }
+        ]
+      },
+      "79bed145-e066-45f7-a91c-fe9f23b341d4": {
+        "position": {
+          "x": 793.6,
+          "y": -64
+        },
+        "conditionMetadata": [
+          {
+            "id": "c02caea7-303b-430a-9b80-8bbe9b293ebd",
+            "value": "0"
+          }
+        ]
+      }
+    },
+    "Annotations": [],
+    "name": "VanityService_Main",
+    "description": "",
+    "type": "contactFlow",
+    "status": "published",
+    "hash": {}
+  },
+  "Actions": [
+    {
+      "Parameters": {
+        "EventHooks": {
+          "CustomerQueue": "arn:aws:connect:us-west-2:567768661479:instance/e5a93987-2ac6-4fea-8af1-7a1e6d2d1a1b/contact-flow/0a5f57aa-b11d-4e05-b3a6-21681bba136c"
+        }
+      },
+      "Identifier": "f2e0ee8e-5abe-46e7-9462-9c0eacf52d3a",
+      "Type": "UpdateContactEventHooks",
+      "Transitions": {
+        "NextAction": "d63c70f1-9697-4e4d-9b14-991b5fbc77a5",
+        "Errors": [
+          {
+            "NextAction": "d63c70f1-9697-4e4d-9b14-991b5fbc77a5",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "d63c70f1-9697-4e4d-9b14-991b5fbc77a5",
+      "Type": "TransferContactToQueue",
+      "Transitions": {
+        "NextAction": "dc429e7a-15af-41fb-b366-a21b018e5df8",
+        "Errors": [
+          {
+            "NextAction": "dc429e7a-15af-41fb-b366-a21b018e5df8",
+            "ErrorType": "QueueAtCapacity"
+          },
+          {
+            "NextAction": "dc429e7a-15af-41fb-b366-a21b018e5df8",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {},
+      "Identifier": "dc429e7a-15af-41fb-b366-a21b018e5df8",
+      "Type": "DisconnectParticipant",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "LoopCount": "2"
+      },
+      "Identifier": "61f67734-82e8-4037-bf0e-51041ae2d03d",
+      "Type": "Loop",
+      "Transitions": {
+        "NextAction": "15e30284-794b-42bc-8f4f-81f7253e9d9e",
+        "Conditions": [
+          {
+            "NextAction": "1afa3b24-3c83-4f1c-a9a0-553eb6b31e77",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "ContinueLooping"
+              ]
+            }
+          },
+          {
+            "NextAction": "15e30284-794b-42bc-8f4f-81f7253e9d9e",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "DoneLooping"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "dc429e7a-15af-41fb-b366-a21b018e5df8",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "SkipWhenDTMFBufferEnabled": "false",
+        "Text": "Sorry, I did not recognize your entry. Please try again."
+      },
+      "Identifier": "1afa3b24-3c83-4f1c-a9a0-553eb6b31e77",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "e03dca24-8960-4100-b899-3dd439954053",
+        "Errors": [
+          {
+            "NextAction": "e03dca24-8960-4100-b899-3dd439954053",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "QueueId": "arn:aws:connect:us-west-2:567768661479:instance/e5a93987-2ac6-4fea-8af1-7a1e6d2d1a1b/queue/c425db6d-f361-40cc-86c2-c4e79fea7062"
+      },
+      "Identifier": "51d3bc45-85d3-4ee1-8a79-f953feda9481",
+      "Type": "UpdateContactTargetQueue",
+      "Transitions": {
+        "NextAction": "f2e0ee8e-5abe-46e7-9462-9c0eacf52d3a",
+        "Errors": [
+          {
+            "NextAction": "f2e0ee8e-5abe-46e7-9462-9c0eacf52d3a",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "SkipWhenDTMFBufferEnabled": "false",
+        "Text": "Sorry, I did not recognize your entry. Please try again."
+      },
+      "Identifier": "9cb8d856-b5cd-4cb6-b757-81ae3ff15907",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "3c66a59c-20eb-4b44-afc1-364a372ef80e",
+        "Errors": [
+          {
+            "NextAction": "e03dca24-8960-4100-b899-3dd439954053",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LoopCount": "2"
+      },
+      "Identifier": "a9d4e7b2-2138-4947-986a-f31e68dd9f6a",
+      "Type": "Loop",
+      "Transitions": {
+        "NextAction": "15e30284-794b-42bc-8f4f-81f7253e9d9e",
+        "Conditions": [
+          {
+            "NextAction": "9cb8d856-b5cd-4cb6-b757-81ae3ff15907",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "ContinueLooping"
+              ]
+            }
+          },
+          {
+            "NextAction": "15e30284-794b-42bc-8f4f-81f7253e9d9e",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "DoneLooping"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "dc429e7a-15af-41fb-b366-a21b018e5df8",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "FlowLoggingBehavior": "Enabled"
+      },
+      "Identifier": "9f1a5c7e-8621-448d-9b43-d8efe7dcd486",
+      "Type": "UpdateFlowLoggingBehavior",
+      "Transitions": {
+        "NextAction": "e3b3c50b-cdf6-4966-b152-6aab11edbeea"
+      }
+    },
+    {
+      "Parameters": {
+        "SkipWhenDTMFBufferEnabled": "false",
+        "Text": "Welcome to the Vanity Number Service. We will generate a personalized vanity number based on your phone number.\nPlease hold while we process your request."
+      },
+      "Identifier": "e3b3c50b-cdf6-4966-b152-6aab11edbeea",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "8810d31c-9a2b-4b12-a30e-61ae91f6bf27",
+        "Errors": [
+          {
+            "NextAction": "8810d31c-9a2b-4b12-a30e-61ae91f6bf27",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "False",
+        "InputTimeLimitSeconds": "8",
+        "Text": "To repeat this information , press 1.\nIf you need further assistance press 0. \nTo end this call please hang up."
+      },
+      "Identifier": "3c66a59c-20eb-4b44-afc1-364a372ef80e",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "a9d4e7b2-2138-4947-986a-f31e68dd9f6a",
+        "Conditions": [
+          {
+            "NextAction": "5a7aef0f-4736-414d-81ff-0f5efd3d4fe3",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "1"
+              ]
+            }
+          },
+          {
+            "NextAction": "3d6f3a6c-7c8e-47ea-b6fc-c6ca1530d231",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "0"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "a9d4e7b2-2138-4947-986a-f31e68dd9f6a",
+            "ErrorType": "InputTimeLimitExceeded"
+          },
+          {
+            "NextAction": "a9d4e7b2-2138-4947-986a-f31e68dd9f6a",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "a9d4e7b2-2138-4947-986a-f31e68dd9f6a",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "LambdaFunctionARN": "arn:aws:lambda:us-west-2:567768661479:function:VanityNumberGen3",
+        "InvocationTimeLimitSeconds": "8",
+        "InvocationType": "SYNCHRONOUS",
+        "ResponseValidation": {
+          "ResponseType": "STRING_MAP"
+        }
+      },
+      "Identifier": "8810d31c-9a2b-4b12-a30e-61ae91f6bf27",
+      "Type": "InvokeLambdaFunction",
+      "Transitions": {
+        "NextAction": "f161b173-7881-45e7-b98d-01c4c18fe7f8",
+        "Errors": [
+          {
+            "NextAction": "e03dca24-8960-4100-b899-3dd439954053",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "SkipWhenDTMFBufferEnabled": "false",
+        "Text": "We found vanity number options based on your phone number.\n\nYour best option is:\n$.External.vanity1\n\nSecond option:\n$.External.vanity2\n\nThird option:\n$.External.vanity3\n"
+      },
+      "Identifier": "5a7aef0f-4736-414d-81ff-0f5efd3d4fe3",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "3c66a59c-20eb-4b44-afc1-364a372ef80e",
+        "Errors": [
+          {
+            "NextAction": "e03dca24-8960-4100-b899-3dd439954053",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "SkipWhenDTMFBufferEnabled": "false",
+        "Text": "Thank you for calling vanity number service. Goodbye!"
+      },
+      "Identifier": "15e30284-794b-42bc-8f4f-81f7253e9d9e",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "dc429e7a-15af-41fb-b366-a21b018e5df8",
+        "Errors": [
+          {
+            "NextAction": "dc429e7a-15af-41fb-b366-a21b018e5df8",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "SkipWhenDTMFBufferEnabled": "false",
+        "Text": "Please hold while we transfer you to the vanity assistance line. "
+      },
+      "Identifier": "3d6f3a6c-7c8e-47ea-b6fc-c6ca1530d231",
+      "Type": "MessageParticipant",
+      "Transitions": {
+        "NextAction": "51d3bc45-85d3-4ee1-8a79-f953feda9481",
+        "Errors": [
+          {
+            "NextAction": "e03dca24-8960-4100-b899-3dd439954053",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "False",
+        "InputTimeLimitSeconds": "5",
+        "Text": "Sorry, we ran into an unexpected issue. If you need further assistance press 1. To end this call, please hang up. "
+      },
+      "Identifier": "e03dca24-8960-4100-b899-3dd439954053",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "61f67734-82e8-4037-bf0e-51041ae2d03d",
+        "Conditions": [
+          {
+            "NextAction": "3d6f3a6c-7c8e-47ea-b6fc-c6ca1530d231",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "1"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "61f67734-82e8-4037-bf0e-51041ae2d03d",
+            "ErrorType": "InputTimeLimitExceeded"
+          },
+          {
+            "NextAction": "61f67734-82e8-4037-bf0e-51041ae2d03d",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "dc429e7a-15af-41fb-b366-a21b018e5df8",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "ComparisonValue": "$.External.vanity1"
+      },
+      "Identifier": "f161b173-7881-45e7-b98d-01c4c18fe7f8",
+      "Type": "Compare",
+      "Transitions": {
+        "NextAction": "79bed145-e066-45f7-a91c-fe9f23b341d4",
+        "Conditions": [
+          {
+            "NextAction": "5a7aef0f-4736-414d-81ff-0f5efd3d4fe3",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "True"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "79bed145-e066-45f7-a91c-fe9f23b341d4",
+            "ErrorType": "NoMatchingCondition"
+          }
+        ]
+      }
+    },
+    {
+      "Parameters": {
+        "StoreInput": "False",
+        "InputTimeLimitSeconds": "5",
+        "Text": "Sorry, we did not found and vanity number for your phone number. If you require further assistance press 0, if you want to end this call please hang up."
+      },
+      "Identifier": "79bed145-e066-45f7-a91c-fe9f23b341d4",
+      "Type": "GetParticipantInput",
+      "Transitions": {
+        "NextAction": "15e30284-794b-42bc-8f4f-81f7253e9d9e",
+        "Conditions": [
+          {
+            "NextAction": "3d6f3a6c-7c8e-47ea-b6fc-c6ca1530d231",
+            "Condition": {
+              "Operator": "Equals",
+              "Operands": [
+                "0"
+              ]
+            }
+          }
+        ],
+        "Errors": [
+          {
+            "NextAction": "15e30284-794b-42bc-8f4f-81f7253e9d9e",
+            "ErrorType": "InputTimeLimitExceeded"
+          },
+          {
+            "NextAction": "15e30284-794b-42bc-8f4f-81f7253e9d9e",
+            "ErrorType": "NoMatchingCondition"
+          },
+          {
+            "NextAction": "e03dca24-8960-4100-b899-3dd439954053",
+            "ErrorType": "NoMatchingError"
+          }
+        ]
+      }
+    }
+  ]
+}

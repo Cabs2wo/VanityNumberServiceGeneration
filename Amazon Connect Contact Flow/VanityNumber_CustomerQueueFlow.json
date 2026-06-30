@@ -1,0 +1,48 @@
+{
+  "Version": "2019-10-30",
+  "StartAction": "01bf2768-c12b-4c01-bdd9-5ef3e436af4a",
+  "Metadata": {
+    "entryPointPosition": {
+      "x": 40,
+      "y": 40
+    },
+    "ActionMetadata": {
+      "7a31952a-79e2-4569-a87e-7934be4ffe90": {
+        "position": {
+          "x": 403.2,
+          "y": 145.6
+        }
+      },
+      "01bf2768-c12b-4c01-bdd9-5ef3e436af4a": {
+        "position": {
+          "x": 161.6,
+          "y": 129.6
+        }
+      }
+    },
+    "Annotations": [],
+    "name": "VanityNumber_CustomerQueueFlow",
+    "description": "",
+    "type": "customerQueue",
+    "status": "PUBLISHED",
+    "hash": {}
+  },
+  "Actions": [
+    {
+      "Parameters": {},
+      "Identifier": "7a31952a-79e2-4569-a87e-7934be4ffe90",
+      "Type": "EndFlowExecution",
+      "Transitions": {}
+    },
+    {
+      "Parameters": {
+        "FlowLoggingBehavior": "Enabled"
+      },
+      "Identifier": "01bf2768-c12b-4c01-bdd9-5ef3e436af4a",
+      "Type": "UpdateFlowLoggingBehavior",
+      "Transitions": {
+        "NextAction": "7a31952a-79e2-4569-a87e-7934be4ffe90"
+      }
+    }
+  ]
+}

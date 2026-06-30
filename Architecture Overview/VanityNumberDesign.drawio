@@ -1,0 +1,257 @@
+<mxfile host="app.diagrams.net" pages="3">
+  <diagram name="Architecture Overview" id="9FvbbWZiMF3pu5BCTwJ6">
+    <mxGraphModel dx="1645" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vhDhPsEKuniRuUWu3Dm_-18" edge="1" parent="1" source="vhDhPsEKuniRuUWu3Dm_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vhDhPsEKuniRuUWu3Dm_-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vhDhPsEKuniRuUWu3Dm_-3" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.connect;" value="&lt;b&gt;Amazon Connect(IVR)&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="55" width="55" x="180" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="vhDhPsEKuniRuUWu3Dm_-19" edge="1" parent="1" source="vhDhPsEKuniRuUWu3Dm_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vhDhPsEKuniRuUWu3Dm_-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vhDhPsEKuniRuUWu3Dm_-5" parent="1" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.phone;fillColor=#36BE0F;strokeColor=none" value="&lt;b&gt;Caller&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="40" x="50" y="287.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vhDhPsEKuniRuUWu3Dm_-21" edge="1" parent="1" source="vhDhPsEKuniRuUWu3Dm_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vhDhPsEKuniRuUWu3Dm_-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AmzkV8H66iqxLAIOA6FU-1" connectable="0" parent="vhDhPsEKuniRuUWu3Dm_-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="BatchGetCommand &amp;amp; QueryCommand" vertex="1">
+          <mxGeometry relative="1" x="-0.1607" y="3" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vhDhPsEKuniRuUWu3Dm_-23" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vhDhPsEKuniRuUWu3Dm_-22" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="377" y="360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ktflJNnNTq8X6c1-X8nb-1" connectable="0" parent="vhDhPsEKuniRuUWu3Dm_-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="PutCommand" vertex="1">
+          <mxGeometry relative="1" x="-0.1508" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vhDhPsEKuniRuUWu3Dm_-14" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" value="&lt;b&gt;AWS LAMBDA&lt;/b&gt;" vertex="1">
+          <mxGeometry height="55" width="55" x="350" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="vhDhPsEKuniRuUWu3Dm_-20" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" value="&lt;b&gt;Amazon DynamoDB(Read)&lt;/b&gt;&lt;div&gt;&lt;b&gt;Table: NumberVanityMapping&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Table: VanityDictionary&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="710" y="282.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vhDhPsEKuniRuUWu3Dm_-25" edge="1" parent="1" source="vhDhPsEKuniRuUWu3Dm_-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="vhDhPsEKuniRuUWu3Dm_-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vhDhPsEKuniRuUWu3Dm_-22" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" value="&lt;b&gt;Amazon DynamoDB(Write)&lt;/b&gt;&lt;div&gt;&lt;b&gt;Table: vanityNumbers&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="50" x="352.5" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="vhDhPsEKuniRuUWu3Dm_-24" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.connect;" value="&lt;b&gt;Amazon Connect (Response)&lt;/b&gt;" vertex="1">
+          <mxGeometry height="55" width="55" x="670" y="437.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="PmvKKX-O7D8DP0qWjOpE" name="VanityService_Main">
+    <mxGraphModel dx="2847" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4AgJa0BoRlMEoTgm7F9--4" edge="1" parent="1" source="4AgJa0BoRlMEoTgm7F9--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4AgJa0BoRlMEoTgm7F9--3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AgJa0BoRlMEoTgm7F9--1" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="START" vertex="1">
+          <mxGeometry height="80" width="120" x="330" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4AgJa0BoRlMEoTgm7F9--6" edge="1" parent="1" source="4AgJa0BoRlMEoTgm7F9--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4AgJa0BoRlMEoTgm7F9--5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AgJa0BoRlMEoTgm7F9--3" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="&lt;div&gt;Welcome to the Vanity Number Service. We will generate a personalized vanity number based on your phone number.&lt;/div&gt;&lt;div&gt;Please hold while we process your request.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="220" x="280" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4AgJa0BoRlMEoTgm7F9--9" edge="1" parent="1" source="4AgJa0BoRlMEoTgm7F9--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4AgJa0BoRlMEoTgm7F9--8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U15JhR0fkd950ZCNy_hJ-3" connectable="0" parent="4AgJa0BoRlMEoTgm7F9--9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="True" vertex="1">
+          <mxGeometry relative="1" x="-0.28" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U15JhR0fkd950ZCNy_hJ-2" edge="1" parent="1" source="4AgJa0BoRlMEoTgm7F9--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="U15JhR0fkd950ZCNy_hJ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U15JhR0fkd950ZCNy_hJ-4" connectable="0" parent="U15JhR0fkd950ZCNy_hJ-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No Match" vertex="1">
+          <mxGeometry relative="1" x="-0.1686" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4AgJa0BoRlMEoTgm7F9--5" parent="1" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Lambda&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;VanityNumberGen3&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="130" x="325" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="4AgJa0BoRlMEoTgm7F9--11" edge="1" parent="1" source="4AgJa0BoRlMEoTgm7F9--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4AgJa0BoRlMEoTgm7F9--10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4AgJa0BoRlMEoTgm7F9--8" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="&lt;div&gt;We found vanity number options based on your phone number.&lt;/div&gt;&lt;div&gt;Your best option is:&lt;/div&gt;&lt;div&gt;$.External.vanity1&lt;/div&gt;&lt;div&gt;Second option:&lt;/div&gt;&lt;div&gt;$.External.vanity2&lt;/div&gt;&lt;div&gt;Third option:&lt;/div&gt;&lt;div&gt;$.External.vanity3&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="240" x="270" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="4AgJa0BoRlMEoTgm7F9--13" edge="1" parent="1" source="4AgJa0BoRlMEoTgm7F9--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="4AgJa0BoRlMEoTgm7F9--8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="665" />
+              <mxPoint x="530" y="525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4AgJa0BoRlMEoTgm7F9--14" connectable="0" parent="4AgJa0BoRlMEoTgm7F9--13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;Press 1&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0552" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2_KvC0NHOVZWuwX6Lfd0-2" edge="1" parent="1" source="4AgJa0BoRlMEoTgm7F9--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="2_KvC0NHOVZWuwX6Lfd0-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2_KvC0NHOVZWuwX6Lfd0-3" connectable="0" parent="2_KvC0NHOVZWuwX6Lfd0-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Press 0" vertex="1">
+          <mxGeometry relative="1" x="-0.2538" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uIWpv5d0e2a_2n8lYnRA-29" edge="1" parent="1" source="4AgJa0BoRlMEoTgm7F9--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="uIWpv5d0e2a_2n8lYnRA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uIWpv5d0e2a_2n8lYnRA-30" connectable="0" parent="uIWpv5d0e2a_2n8lYnRA-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Timeout / No Input" vertex="1">
+          <mxGeometry relative="1" x="-0.4338" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4AgJa0BoRlMEoTgm7F9--10" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="&lt;div&gt;&lt;div&gt;To repeat this information , press 1.&lt;/div&gt;&lt;div&gt;If you need further assistance press 0.&amp;nbsp;&lt;/div&gt;&lt;div&gt;To end this call please hang up.&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="240" x="270" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="2_KvC0NHOVZWuwX6Lfd0-7" edge="1" parent="1" source="2_KvC0NHOVZWuwX6Lfd0-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="2_KvC0NHOVZWuwX6Lfd0-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2_KvC0NHOVZWuwX6Lfd0-1" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Please hold while we transfer you to the vanity assistance line.&amp;nbsp;" vertex="1">
+          <mxGeometry height="90" width="240" x="270" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="uIWpv5d0e2a_2n8lYnRA-2" edge="1" parent="1" source="2_KvC0NHOVZWuwX6Lfd0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uIWpv5d0e2a_2n8lYnRA-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2_KvC0NHOVZWuwX6Lfd0-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="SetWorkingQueue&lt;br&gt;Queue: BasicQueue" vertex="1">
+          <mxGeometry height="70" width="155" x="312.5" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="uIWpv5d0e2a_2n8lYnRA-1" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;Transfer to&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;CustomerQueueFlow:&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;VanityNumber_CustomerQueueFlow&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="222.5" x="278.75" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="uIWpv5d0e2a_2n8lYnRA-8" edge="1" parent="1" source="uIWpv5d0e2a_2n8lYnRA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="2_KvC0NHOVZWuwX6Lfd0-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uIWpv5d0e2a_2n8lYnRA-10" connectable="0" parent="uIWpv5d0e2a_2n8lYnRA-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Press 1" vertex="1">
+          <mxGeometry relative="1" x="0.2666" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uIWpv5d0e2a_2n8lYnRA-23" edge="1" parent="1" source="uIWpv5d0e2a_2n8lYnRA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uIWpv5d0e2a_2n8lYnRA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uIWpv5d0e2a_2n8lYnRA-25" connectable="0" parent="uIWpv5d0e2a_2n8lYnRA-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Timeout / No Input" vertex="1">
+          <mxGeometry relative="1" x="0.2741" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uIWpv5d0e2a_2n8lYnRA-3" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Sorry, we ran into an unexpected issue. If you need further assistance press 1. To end this call, please hang up.&amp;nbsp;" vertex="1">
+          <mxGeometry height="90" width="240" x="-60" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="uIWpv5d0e2a_2n8lYnRA-5" edge="1" parent="1" source="4AgJa0BoRlMEoTgm7F9--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.01;entryY=0.552;entryDx=0;entryDy=0;entryPerimeter=0;" target="uIWpv5d0e2a_2n8lYnRA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uIWpv5d0e2a_2n8lYnRA-6" connectable="0" parent="uIWpv5d0e2a_2n8lYnRA-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Error" vertex="1">
+          <mxGeometry relative="1" x="-0.1033" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uIWpv5d0e2a_2n8lYnRA-16" edge="1" parent="1" source="uIWpv5d0e2a_2n8lYnRA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uIWpv5d0e2a_2n8lYnRA-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uIWpv5d0e2a_2n8lYnRA-17" connectable="0" parent="uIWpv5d0e2a_2n8lYnRA-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1,2 times" vertex="1">
+          <mxGeometry relative="1" x="0.0424" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uIWpv5d0e2a_2n8lYnRA-19" edge="1" parent="1" source="uIWpv5d0e2a_2n8lYnRA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uIWpv5d0e2a_2n8lYnRA-18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uIWpv5d0e2a_2n8lYnRA-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Loop" vertex="1">
+          <mxGeometry height="80" width="80" x="-160" y="695" as="geometry" />
+        </mxCell>
+        <mxCell id="uIWpv5d0e2a_2n8lYnRA-12" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Sorry, I did not recognize your entry. Please try again." vertex="1">
+          <mxGeometry height="90" width="240" x="-510" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="uIWpv5d0e2a_2n8lYnRA-21" edge="1" parent="1" source="uIWpv5d0e2a_2n8lYnRA-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uIWpv5d0e2a_2n8lYnRA-20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uIWpv5d0e2a_2n8lYnRA-18" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Thank you for calling vanity number service. Goodbye!" vertex="1">
+          <mxGeometry height="90" width="240" x="-240" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="uIWpv5d0e2a_2n8lYnRA-20" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="END/Disconnect" vertex="1">
+          <mxGeometry height="90" width="145" x="-192.5" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="U15JhR0fkd950ZCNy_hJ-6" edge="1" parent="1" source="U15JhR0fkd950ZCNy_hJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="U15JhR0fkd950ZCNy_hJ-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U15JhR0fkd950ZCNy_hJ-1" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Check Contact Attribute:&lt;div&gt;vanity1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="170" x="690" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="U15JhR0fkd950ZCNy_hJ-7" edge="1" parent="1" source="U15JhR0fkd950ZCNy_hJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="2_KvC0NHOVZWuwX6Lfd0-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U15JhR0fkd950ZCNy_hJ-8" connectable="0" parent="U15JhR0fkd950ZCNy_hJ-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Press 0" vertex="1">
+          <mxGeometry relative="1" x="-0.0444" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U15JhR0fkd950ZCNy_hJ-10" edge="1" parent="1" source="U15JhR0fkd950ZCNy_hJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="U15JhR0fkd950ZCNy_hJ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U15JhR0fkd950ZCNy_hJ-11" connectable="0" parent="U15JhR0fkd950ZCNy_hJ-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Hang up" vertex="1">
+          <mxGeometry relative="1" x="-0.1529" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U15JhR0fkd950ZCNy_hJ-5" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="&lt;div&gt;Sorry, we did not found and vanity number for your phone number. If you require further assistance press 0, if you want to end this call please hang up.&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="240" x="655" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="U15JhR0fkd950ZCNy_hJ-13" edge="1" parent="1" source="U15JhR0fkd950ZCNy_hJ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="U15JhR0fkd950ZCNy_hJ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U15JhR0fkd950ZCNy_hJ-9" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Thank you for calling vanity number service. Goodbye!" vertex="1">
+          <mxGeometry height="90" width="240" x="655" y="695" as="geometry" />
+        </mxCell>
+        <mxCell id="U15JhR0fkd950ZCNy_hJ-12" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="END/Disconnect" vertex="1">
+          <mxGeometry height="90" width="145" x="702.5" y="850" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="q6yRRxsX2t9B-9lnW5fo" name="VanityNumber_CustomerQueueFlow">
+    <mxGraphModel dx="1414" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qckRpON4IZljMaWNYoRc-3" edge="1" parent="1" source="qckRpON4IZljMaWNYoRc-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qckRpON4IZljMaWNYoRc-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qckRpON4IZljMaWNYoRc-1" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="START" vertex="1">
+          <mxGeometry height="80" width="120" x="320" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qckRpON4IZljMaWNYoRc-5" edge="1" parent="1" source="qckRpON4IZljMaWNYoRc-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qckRpON4IZljMaWNYoRc-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qckRpON4IZljMaWNYoRc-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SetLoggingBehavior" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="qckRpON4IZljMaWNYoRc-4" parent="1" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="End flow / Resume" vertex="1">
+          <mxGeometry height="110" width="160" x="300" y="330" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
